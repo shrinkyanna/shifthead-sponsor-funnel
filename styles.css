@@ -1,1 +1,106 @@
 :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#f4f5f8;background:#0a0e1a;font-synthesis:none}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #222939;padding:0 max(24px,calc((100vw - 1120px)/2))}.logo{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:900;letter-spacing:1.1px}.mark{width:38px;height:38px;display:grid;place-items:center;background:#e8341c;color:#fff;border-radius:9px;font-size:15px;letter-spacing:-1px}.accent,.text-link{color:#ff513a}.nav-link{font-size:13px;color:#b9c0cf}.hero{padding:105px 0 100px;position:relative}.hero:after{content:"";position:absolute;right:0;top:40px;width:350px;height:350px;background:radial-gradient(circle,#e8341c20,transparent 68%);pointer-events:none}.eyebrow,.kicker{font-size:11px;font-weight:800;letter-spacing:2px;color:#ff604b}.eyebrow{display:flex;align-items:center;gap:10px}.dot{height:7px;width:7px;background:#e8341c;border-radius:50%;box-shadow:0 0 12px #e8341c}h1{font-size:clamp(46px,6vw,83px);line-height:1.04;max-width:950px;letter-spacing:-4px;margin:30px 0 25px}h1 em{font-style:normal;color:#ff513a}.lead{max-width:660px;color:#b2b9c7;font-size:19px;line-height:1.7}.hero-actions{display:flex;flex-wrap:wrap;gap:13px;margin:35px 0 19px}.btn{border:1px solid #41495a;border-radius:9px;padding:15px 22px;color:#fff;background:#20283a;font-weight:750;font-size:14px;display:inline-flex;justify-content:center;align-items:center;gap:16px;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:#344056}.btn.primary{background:#e8341c;border-color:#e8341c}.btn.primary:hover{background:#fa4933}.btn.ghost{background:transparent}.micro,.fineprint{font-size:12px;color:#8791a3;line-height:1.6}.section{padding:76px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}.section-head h2,.giveaway h2{font-size:clamp(30px,4vw,45px);letter-spacing:-1.6px;margin:12px 0 0}.section-head>p{max-width:350px;font-size:14px;line-height:1.65;color:#a5afc0}.pricing{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch}.plan{background:#121a29;border:1px solid #30394b;border-radius:15px;padding:29px 26px;display:flex;flex-direction:column;position:relative;min-height:460px}.plan.featured{border:2px solid #e8341c;background:#1b1c2a}.ribbon{position:absolute;right:18px;top:-13px;background:#e8341c;padding:7px 12px;border-radius:5px;font-size:10px;font-weight:900;letter-spacing:1px}.plan h3{font-size:22px;margin:0}.plan-top p{font-size:13px;color:#9faabc;margin:8px 0 26px}.price{font-size:48px;font-weight:850;letter-spacing:-2px;padding-bottom:22px;border-bottom:1px solid #30394b}.price span{font-size:12px;font-weight:500;letter-spacing:0;color:#9ca6b8}.plan ul{padding:16px 0 20px;margin:0;list-style:none;flex:1}.plan li{font-size:13px;line-height:1.55;padding:8px 0 8px 22px;position:relative;color:#d7dce5}.plan li:before{content:'✓';position:absolute;left:0;color:#ff604b;font-weight:900}.plan-btn{width:100%}.giveaway{border:1px solid #3a4253;background:linear-gradient(110deg,#1b2435,#151c2b);border-radius:18px;display:flex;align-items:center;gap:32px;padding:45px}.gift-icon{font-size:72px;color:#e8341c}.giveaway p:not(.kicker){color:#b4bdcb;max-width:750px;line-height:1.7}.text-link{display:inline-block;margin-top:10px;font-weight:750}.form-shell{border:1px solid #313b4c;background:#131b2a;border-radius:15px;padding:32px;max-width:840px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}label{display:block;font-size:13px;font-weight:650;color:#d9deea;margin-bottom:18px}label>span:not(.consent span){color:#ff604b}input:not([type=checkbox]),select,textarea{width:100%;display:block;background:#0c1220;border:1px solid #3c4659;border-radius:8px;color:#f6f7fa;padding:13px;margin-top:9px;outline:none}input:focus,select:focus,textarea:focus{border-color:#ff604b}textarea{resize:vertical}.consent{display:flex;align-items:start;gap:11px;line-height:1.5;color:#aeb8c7;font-weight:400}.consent input{margin-top:3px;accent-color:#e8341c}.submit{margin-bottom:8px}.form-notice{font-size:13px;color:#ff8d7e}.faq{padding:25px 0 95px}.faq details{border-bottom:1px solid #30394b;padding:20px 0}.faq summary{cursor:pointer;font-weight:700}.faq details p{color:#adb7c8;line-height:1.7}footer{border-top:1px solid #2d3546;padding:30px 0}.foot{display:flex;align-items:center;justify-content:space-between;gap:15px;color:#9da8b9;font-size:12px}@media(max-width:780px){.hero{padding:70px 0}.pricing{grid-template-columns:1fr}.plan{min-height:0}.section-head{display:block}.giveaway{padding:25px;align-items:start}.form-grid{grid-template-columns:1fr;gap:0}h1{letter-spacing:-2px}.foot{flex-wrap:wrap}}@media(max-width:450px){.wrap{width:calc(100% - 32px)}.nav{padding:0 16px}.nav-link{font-size:11px}.giveaway{flex-direction:column;gap:0}.gift-icon{font-size:42px}.form-shell{padding:20px}}
+
+/* Official ShiftHead brand assets */
+.brand-emblem{width:42px;height:42px;object-fit:cover;border-radius:8px;display:block}
+.hero-brand-banner{width:100%;height:auto;max-height:310px;object-fit:cover;object-position:center;display:block;border:1px solid #30394b;border-radius:14px;margin-bottom:46px}
+@media(max-width:780px){.hero-brand-banner{max-height:210px;margin-bottom:30px}}
+
+/* Official ShiftHead brand assets — constrained, responsive display */
+.brand-emblem { display:block; width:42px; height:42px; min-width:42px; object-fit:contain; border-radius:8px; }
+.logo { flex-shrink:0; white-space:nowrap; }
+.hero-brand-banner { display:block; width:100%; max-width:100%; height:auto; max-height:300px; object-fit:cover; object-position:center; border-radius:14px; border:1px solid #273044; margin:0 0 34px; }
+@media (max-width:640px) { .brand-emblem {width:34px;height:34px;min-width:34px;} .hero-brand-banner {max-height:190px;border-radius:10px;margin-bottom:24px;} .hero {padding-top:45px;} .nav {height:72px;} }
+
+/* Single official ShiftHead artwork — no separate emblem or combined banner */
+.nav-brand{font-size:16px;font-weight:850;letter-spacing:.02em;color:#f4f5f8;white-space:nowrap}
+.nav-brand span{color:#aab3c3;font-weight:500;font-size:13px}
+.hero-logo-frame{width:min(100%,850px);margin:0 auto 48px;display:flex;justify-content:center;align-items:center}
+.hero-single-logo{display:block;width:auto;max-width:100%;height:auto;max-height:520px;object-fit:contain;border:0;border-radius:12px}
+.footer-brand{font-weight:800;color:#f4f5f8;font-size:15px}
+@media(max-width:780px){.hero-logo-frame{margin-bottom:30px}.hero-single-logo{max-height:390px}}
+@media(max-width:450px){.nav-brand{font-size:13px}.nav-brand span{font-size:11px}.hero-single-logo{max-height:340px}}
+
+/* Compact horizontal crop of the one supplied official artwork */
+.hero{padding-top:42px}
+.hero-logo-frame{width:min(100%,760px);margin:0 auto 32px}
+.hero-single-logo{width:100%;height:auto;max-height:none;object-fit:contain;border-radius:10px}
+@media(max-width:780px){.hero{padding-top:32px}.hero-logo-frame{margin-bottom:26px}.hero-single-logo{max-height:none}}
+
+/* Small official emblem in footer only */
+.footer-emblem{display:block;width:52px;height:52px;object-fit:contain;border-radius:10px}
+.footer-brand{display:inline-flex;align-items:center;flex-shrink:0}
+@media(max-width:600px){.footer-emblem{width:42px;height:42px}}
+
+/* Refined sponsor-page brand treatment */
+.hero{padding-top:46px}
+.hero-logo-frame{display:block;width:min(100%,460px);margin:0 auto 38px;border-radius:12px;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease}
+.hero-logo-frame:hover{transform:translateY(-2px);box-shadow:0 10px 35px #0005}
+.hero-logo-frame:focus-visible,.nav-website-btn:focus-visible{outline:3px solid #ff604b;outline-offset:4px}
+.hero-single-logo{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:12px}
+.nav-website-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;border:1px solid #e8341c;border-radius:8px;color:#f4f5f8;font-weight:700;background:#e8341c1a;white-space:nowrap}
+.nav-website-btn:hover{background:#e8341c;color:white}
+@media(max-width:780px){.hero{padding-top:32px}.hero-logo-frame{width:min(100%,390px);margin-bottom:30px}}
+@media(max-width:450px){.hero-logo-frame{width:min(100%,310px)}.nav-website-btn{padding:9px 11px;font-size:11px}}
+
+/* Blend artwork edges into page without a rectangular frame */
+.hero-logo-frame{overflow:visible;border:0;border-radius:0;box-shadow:none!important;background:transparent}
+.hero-single-logo{border:0;border-radius:0;filter:none}
+
+/* Final logo sizing: approximately 20% wider while preserving feathered transparent edges. */
+.hero-logo-frame{width:min(100%,552px);margin-bottom:38px}
+.hero-single-logo{width:100%;height:auto}
+@media(max-width:780px){.hero-logo-frame{width:min(100%,470px)}}
+@media(max-width:450px){.hero-logo-frame{width:min(100%,350px)}}
+
+/* Facelift: match ShiftHead's official charcoal/red, compact angular identity */
+:root{--brand:#ef3737}
+body{background:#111112;color:#f7f7f8}
+.nav{background:#121213f5;border-bottom:1px solid #29292c}
+.nav-brand{font-style:italic;letter-spacing:.01em;text-transform:uppercase}
+.hero{position:relative;padding-top:50px;padding-bottom:88px}
+.hero::before{content:"";position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at 72% 33%,#a72c271b,transparent 55%)}
+.hero h1{font-style:italic;text-transform:uppercase;letter-spacing:-.055em;line-height:1.05;max-width:1050px}
+.hero h1 em{font-style:italic;color:#ef3c36}
+.hero-logo-frame{width:min(100%,575px)}
+.kicker,.eyebrow{letter-spacing:.14em}
+.section-head h2,.giveaway h2,.connect-panel h2{font-style:italic;text-transform:uppercase;letter-spacing:-.04em}
+.plan{background:#1a1a1c;border:1px solid #303033;border-radius:12px}
+.plan.featured{border-color:#e93a33;box-shadow:0 0 45px #c6282810}
+.plan h3{font-style:italic;text-transform:uppercase}
+.btn{border-radius:5px;text-transform:uppercase;font-weight:800;letter-spacing:.045em}
+.btn.primary{background:#e93434;border-color:#e93434}
+.btn.primary:hover{background:#f34d44}
+.nav-website-btn{border-radius:5px}
+.connect-section{padding-top:55px;padding-bottom:80px}
+.connect-panel{padding:clamp(28px,5vw,65px);background:radial-gradient(ellipse at 70% 20%,#9b282422,transparent 60%),#181719;border:1px solid #333034;border-radius:12px;text-align:center}
+.connect-panel h2{font-size:clamp(34px,5vw,60px);margin:12px auto 18px}
+.connect-panel h2 em{color:#f04b3e}
+.connect-panel>p:not(.kicker){max-width:650px;margin:0 auto 24px;color:#b4b3b9}
+.connect-panel .hero-actions{justify-content:center;flex-wrap:wrap}
+.connect-panel .fineprint{font-size:12px;margin-top:20px!important}
+@media(max-width:600px){.hero{padding-bottom:55px}.hero h1{letter-spacing:-.035em}.hero-logo-frame{width:min(100%,390px)}.connect-panel{text-align:left}.connect-panel .hero-actions{justify-content:flex-start}}
+
+/* Official-site-inspired minimal footer */
+.site-footer{background:#121212;border:0;padding:0 0 30px;margin-top:38px}
+.footer-inner{max-width:1960px;margin:auto;border-top:1px solid #28282a;padding:36px 40px 0;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.copyright{color:#68686b;font-size:14px;letter-spacing:.01em}
+.footer-socials{display:flex;align-items:center;gap:25px}
+.footer-socials a{display:inline-flex;width:23px;height:23px;color:#77777b;transition:color .2s,transform .2s}
+.footer-socials a:hover,.footer-socials a:focus-visible{color:#f0443c;transform:translateY(-2px)}
+.footer-socials svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.footer-socials .solid{fill:currentColor;stroke:none}
+@media(max-width:550px){.footer-inner{padding:28px 20px 0}.copyright{font-size:11px}.footer-socials{gap:15px}.footer-socials a{width:21px;height:21px}}
+
+/* Full-width official banner, with all four edges fading into the page */
+.hero-logo-frame{width:min(100%,1120px);margin:0 auto 42px;overflow:visible;border:0;border-radius:0;box-shadow:none!important}
+.hero-single-logo{width:100%;max-height:none;object-fit:contain;border:0;border-radius:0;-webkit-mask-image:linear-gradient(to right,transparent 0%,black 10%,black 90%,transparent 100%),linear-gradient(to bottom,transparent 0%,black 15%,black 84%,transparent 100%);-webkit-mask-composite:source-in;mask-image:radial-gradient(ellipse 72% 69% at center,#000 66%,transparent 100%)}
+@media(max-width:780px){.hero-logo-frame{width:100%;margin-bottom:26px}}
+
+/* Banner fades into page without a rectangular frame */
+.hero-logo-frame{display:block;background:transparent!important;box-shadow:none!important;overflow:visible!important}
+.hero-single-logo{display:block;width:100%;height:auto;-webkit-mask-image:none!important;mask-image:none!important;filter:none!important}
+/* Clean social icons; Discord has a temporary invite-request destination */
+.footer-socials a{width:26px;height:26px;align-items:center;justify-content:center}
+.footer-socials a svg{width:24px;height:24px}
+.footer-socials a:last-child svg path{fill:currentColor;stroke:none}
+.footer-socials a:last-child svg circle{fill:#121212;stroke:none}
